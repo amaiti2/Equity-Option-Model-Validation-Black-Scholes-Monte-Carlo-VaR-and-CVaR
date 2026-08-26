@@ -86,7 +86,6 @@ Every stored ticker run reports zero usable bid-ask midpoints and uses last-pric
 - Only 13 observations determine CVaR, making it statistically unstable.
 - The notebook estimates VaR/CVaR but does not backtest their exception rate.
 - Yahoo-listed US equity options are American-style, while the benchmark is European Black-Scholes.
-- The function's comments mention a seven-day minimum, but the implemented expiry rule selects at least 30 days.
 
 ## Running the notebook
 
